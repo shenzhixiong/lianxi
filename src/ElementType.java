@@ -1,0 +1,32 @@
+/**
+ * 元素类型(用于对表达式解析)
+ */
+public enum ElementType {
+    Undefined,//未定义
+    Blank,//空格
+    Point,//小数点
+    Comma,//逗号
+    Add,//加上
+    Minus,//减去
+    Multiply,//乘以
+    Divide,//除以
+    Mod,//取余
+    BitwiseAnd,//按位与
+    BitwiseOr,//按位或
+    And,//逻辑与
+    Or,//逻辑或
+    Not,//逻辑非
+    GT,//大于
+    LT,//小于
+    EQ,//等于
+    GE,//大于等于
+    LE,//小于等于
+    NE,//不等于
+    LParenthesis,//左括号
+    RParenthesis,//右括号
+    Digital,//数字
+    Letter,//字符
+    String,//字符串
+    Boolean,//布尔
+    Function//函数
+}
